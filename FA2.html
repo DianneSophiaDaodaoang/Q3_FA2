@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/FA2.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>calcU</h1>
+
+    <h3>Instruction:</h3>
+    <p>Input your first number in "Num1" and the second number in "Num2".<br> Choose among the operations and click one.<br>
+    (The result will be displayed below the operations.)</p><br>
+
+    <form>
+        Num1 <input type="text" id="fnum"><br><br>
+        Num2 <input type="text" id="snum"><br><br>
+
+        <input type="button" onClick="add()" Value="+" />
+        <input type="button" onClick="minus()" Value="-" />
+        <input type="button" onClick="multiply()" Value="*"/>
+        <input type="button" onClick="divide()" Value="/" />
+        <input type="button" onClick="modulo()" Value="%" />
+        
+
+    </form>
+    
+    <p id = "result"></p>  
+    
+
+    <script src="FA2.js" type="text/javascript"></script>
+
+</body>
+</html>
